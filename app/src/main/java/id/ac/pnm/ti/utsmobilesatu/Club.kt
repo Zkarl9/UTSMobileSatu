@@ -15,6 +15,6 @@ data class Club(
 
 // extension function recap
 fun Club.recap(): String {
-    return "${this.name} berhasil meraih = ${this.epl} =trofi Liga Primer Inggris, ${this.fa} =trofi FA, " +
-            "${this.efl} =trofi EFL, ${this.ucl} =trofi Liga Champions, dan ${this.uel} =trofi Liga Eropa UEFA"
+    return "${this.name} berhasil meraih = ${this.epl} =trofi Liga Primer Inggris| ${this.fa} =trofi FA| " +
+            "${this.efl} =trofi EFL| ${this.ucl} =trofi Liga Champions| dan ${this.uel} =trofi Liga Eropa UEFA"
 }

@@ -28,7 +28,7 @@ fun main() {
     }
     // Panggil extension function Club recap
     println("=====================================================")
-    println("          Recap hasil perolehan tropi Club           ")
+    println("          Recap Hasil perolehan tropi Club           ")
     println("=====================================================")
     println(clubs[0].recap())
     println(clubs[1].recap())
